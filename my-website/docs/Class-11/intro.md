@@ -2,4 +2,4 @@
 sidebar_position: 1
 ---
 
-# Opening Apps
+# Class 11

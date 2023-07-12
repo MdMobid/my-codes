@@ -5,7 +5,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 (module.exports = {
   title: "Mobid - Codes",
-  tagline: 'I had Shared Some of My Codes in this Documentary, which might be useful for you :)',
+  tagline: 'Welcome to My Codes Documentary, Explore It :)',
   url: 'https://MdMobid.github.io',
   baseUrl: '/codes/',
   onBrokenLinks: 'throw',

@@ -4,15 +4,15 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 // With JSDoc @type annotations, IDEs can provide config autocompletion
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 (module.exports = {
-  title: 'Quadroid',
-  tagline: 'The Smart AI Voice Assistant To Help Humans',
-  url: 'https://Curious-Squad.github.io',
-  baseUrl: '/quadroid-docs/',
+  title: "Mobid - Codes",
+  tagline: 'I had Shared Some of My Codes in this Documentary, which might be useful for you :)',
+  url: 'https://MdMobid.github.io',
+  baseUrl: '/codes/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'Curious-Squad', // Usually your GitHub org/user name.
-  projectName: 'quadroid-docs', // Usually your repo name.
+  organizationName: 'MdMobid', // Usually your GitHub org/user name.
+  projectName: 'codes', // Usually your repo name.
 
   presets: [
     [
@@ -21,8 +21,6 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          // editUrl: 'https://github.com/Curious-Squad',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -35,26 +33,26 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Quadroid',
+        title: 'Mobid',
         logo: {
-          alt: 'Quadroid',
+          alt: 'Mobid',
           src: 'img/logo.svg',
         },
         items: [
           {
             type: 'doc',
-            docId: 'beginners/intro',
+            docId: 'Class-11/intro',
             position: 'left',
-            label: 'Beginner',
+            label: 'Class 11',
           },
           {
             type: 'doc',
-            docId: 'developers/intro',
+            docId: 'Class-12/intro',
             position: 'left',
-            label: 'Developer',
+            label: 'Class 12',
           },
           {
-            href: 'https://github.com/Curious-Squad',
+            href: 'https://github.com/MdMobid',
             label: 'GitHub',
             position: 'right',
           },
@@ -68,29 +66,12 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             title: 'Docs',
             items: [
               {
-                label: 'Beginners',
-                to: '/docs/beginners/intro',
+                label: 'Class 11',
+                to: '/docs/Class-11/intro',
               },
               {
-                label: 'Developers',
-                to: '/docs/developers/intro',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: '#',
-              },
-              {
-                label: 'Discord',
-                href: '#',
-              },
-              {
-                label: 'Twitter',
-                href: '#',
+                label: 'Class 12',
+                to: '/docs/Class-12/intro',
               },
             ],
           },
@@ -103,12 +84,16 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
               },*/
               {
                 label: 'GitHub',
-                href: 'https://github.com/Curious-Squad',
+                href: 'https://github.com/MdMobid',
+              },
+              {
+                label: 'Telegram',
+                href: 'https://telegram.me/MobidX',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} <a href="https://github.com/Curious-Squad/Quadroid" target="_blank">Quadroid</a>`,
+        copyright: `Copyright © ${new Date().getFullYear()} <a href="https://github.com/MdMobid" target="_blank">Md Mobid Hossain</a>`,
       },
       prism: {
         theme: lightCodeTheme,

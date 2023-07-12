@@ -17,15 +17,15 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/beginners/intro">
-            Beginner
+            to="/docs/Class-11/intro">
+            Class 11
           </Link>
            <div style={{ width: "16px" }}></div> {/* Add this div to create a gap */}
            <div style={{ width: "16px" }}></div> {/* Add this div to create a gap */}
           <Link
             className="button button--secondary button--lg"
-            to="/docs/developers/intro">
-            Developer
+            to="/docs/Class-12/intro">
+            Class 12
             </Link>
         </div>
       </div>

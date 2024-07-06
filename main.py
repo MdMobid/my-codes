@@ -1,5 +1,8 @@
 import telebot
 from os import environ
+from keep_alive import keep_alive
+
+keep_alive()
 
 BOT_TOKEN = environ.get('BOT_TOKEN', "")
 

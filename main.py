@@ -1,4 +1,7 @@
 import telebot
+from os import environ
+
+BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
 # Creating Telebot Object
 bot = telebot.TeleBot(BOT_TOKEN)
